@@ -1,0 +1,868 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pag-actual {
+    font-weight: bolder;
+}
+
+footer {
+    text-align: center;
+    background-color: #e74c3c;
+}
+
+.nav-sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar, .navbarDropdown {
+    z-index: 999;
+    background: #e74c3c !important;
+    /* display: flex !important;
+    justify-content: center !important; */
+}
+
+.dropdown-menu {
+    background: #e74c3c;
+    border-radius: 15px;
+}
+.dropdown .dropdown-item:hover, .navbar ul li a:hover  {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.navbar ul li a{
+    color: #fff !important;
+}
+
+.navbar ul li a:hover {
+    color: rgba(#e74c3c, #e74c3c, #e74c3c, 0.8) !important;
+}
+
+.logo-top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background: #e74c3c;
+}
+
+.logo-top img {
+    margin-top: 1%;
+}
+
+.my-element {
+    animation: wobble;
+    animation-duration: 2s;
+}
+
+.frase-top {
+    color: black;
+    margin: 9% 8%;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 33px;
+}
+
+.prod-nov {
+    margin-left: 11%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+/* -------------------------------------------------------------------- */
+
+.banner {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .banner-icon {
+      float: left;
+      margin-right: 20px;
+      font-size: 40px;
+  }
+
+  .banner-border {
+      border-right: 1px #434343 solid;
+  }
+
+  .banner-paragraph {
+      letter-spacing: 1.5px;
+  }
+
+  .nav-inferior {
+    background-color: #e74c3c;
+    margin-top: 5%;
+  }
+
+  .bann {
+      margin: auto;
+      margin-top: 5%;
+      margin-bottom: 6%;
+  }
+
+  .colme {
+      margin-bottom: 20px;
+  }
+
+  .nav-inferior p a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      margin-top: 0px;
+  }
+  .nav-inferior p a:hover {
+      color: rgba(0, 0, 0, 0.5);
+  }
+
+  .nav-inferior p  {
+      text-decoration: none;
+      color: white;
+      font-weight: bolder;
+  }
+
+  .nav-inferior img {
+      margin-bottom: 2%;
+  }
+
+  .nav-inferior .uno {
+      margin-left: 5%;
+  }
+  .nav-inferior .redes-index .fab {
+      font-size: 25px;
+      
+      line-height: 50px;
+  }
+  
+
+  .nav-inferior .redes-index a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0, 0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  
+  }
+  .redes-index .red-contacto {
+      padding-bottom: 5%;
+  }
+  .redes-index-1 {
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      margin-left: -11%; 
+  }
+  .redes-index-1-sm {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      margin-left: -13%;
+  }
+
+  .redes-index-1 a {
+    margin-right: 5%;
+}
+.redes-index .redes-contacto-sm {
+    margin-left: 6%;
+}
+.redes-index-2 .w-1 {
+    margin-left: 9%;
+}
+.redes-index-2-sm .w-sm {
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+  .nav-inferior .redes-index a:hover {
+    transform: translate(0, -10px);
+    background-color: whitesmoke;
+}
+  .nav-inferior .redes-index a:hover .fa-facebook-square {
+    color: #3b5998;
+}        
+  .nav-inferior .redes-index a:hover .fa-whatsapp {
+    color: #25D366 ;
+    font-weight: bold;
+}
+  .nav-inferior .redes-index a:hover .fa-instagram {
+    color: #e4405f;
+}
+  .nav-inferior .redes-index .fa-whatsapp, .fa-instagram, .fa-facebook-square {
+    color: black;
+    
+}
+
+
+
+    /* -------------------------------------COVERT--------------------------------------------- */
+
+
+.description-end {
+    margin-top: 5%;
+}
+
+.game-description2 {
+    padding-top: 20%;
+}
+
+.game-description2 p, ul, li, h1 {
+    color: white;
+}
+
+.game-back-img-all {
+    position: relative;
+}
+
+.game-back-p-all {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 35%;
+    background-color: rgba(255, 255, 237, 0.3);
+}
+.game-banner-img {
+    margin-top: 10%;
+}
+
+
+.game-banner {
+    top: 300%;
+}
+
+.game-banner p {
+    color: white;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 1%;
+}
+
+
+.game-video2 {
+    margin-top: 10%;
+    margin-left: 17%;
+}
+
+
+.MainTitle {
+    animation: bounce;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+.comprar-button {
+    float: right;
+    margin-top: 1%;
+}
+
+.game-logo {
+    position: absolute;
+    top: 2;
+}
+
+.game-video {
+    width: 100%;
+    height: 50rem;
+    clip-path: inset(110px 0px);
+}
+
+.game-description {
+    margin-top: 15%;
+}
+
+.game-description h1 {
+    color: white;
+}
+.game-description p {
+    color: white;
+}
+
+.youtube-video {
+    border: 4px #434343 solid;
+}
+
+/* ----------------------------------DARTH VADER---------------------------------------------- */
+.darth-vader-p {
+    margin-top: 20px;
+    text-align: center;
+    max-width: 70%;
+  }
+
+  .sofia {
+      margin-left: 10%;
+  }
+
+  /* .vader-img {
+    animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+    /* animation-duration: 2s;
+    animation-delay: 0.2s;
+  } */ 
+
+  /* .vader-p {
+    animation: bounceInLeft; 
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+  }
+
+  .vader-img2 {
+    animation: bounceInLeft; 
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+  }
+  .vader-p2 {
+    animation: bounceInLeft;
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+  }
+
+  .vader-img3 {
+    animation: bounceInLeft;
+    animation-duration: 2s;
+    animation-delay: 1.4s;
+  }
+  .vader-p3 {
+    animation: bounceInLeft; 
+    animation-duration: 2s;
+    animation-delay: 1.4s;
+  } */
+
+/* ----------------------------------IRON---------------------------------------------- */
+
+.modal-content {
+    margin-top: 70%;
+    margin-right: 70%;
+    width: auto;
+}
+.cont-modal {
+    width: 100%;
+    margin-top: 5%;
+    height: 35rem;
+    /* background-image: url(../images/PS/3aa.jpg);
+    background-size: 100% 100%; */
+
+}
+
+.cont-modal .img2 {
+    position: absolute;
+}
+
+.cont-modal button {
+    margin-top: 28%;
+    margin-left: 46%; 
+    position: relative;
+}
+
+.cont-modal .btn {
+    background-color: #555;
+}
+
+.iron2 {
+    width: 100%;
+    height: 60rem;
+}
+
+.iron2-p {
+    top: 120%;
+    font-size: 30px;
+}
+
+.iron3 {
+    width: 100%;
+    height: 60rem;
+    margin-top: 1%;
+}
+
+.iron3-p {
+    top: 270%;
+    font-size: 25px;
+}
+
+.iron-cont {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.iron-cont .btn {
+    background-color: #555;
+}
+
+.iron-cont button {
+    margin-top: 2%;
+    margin-left: 46%;
+}
+
+.iron-cont p {
+   margin-top: 6%;
+   margin-left: 10%;
+   font-size: 25px;
+   color: #555;
+}
+
+.iron4 {
+    width: 100%;
+    height: 60rem;
+    margin-top: 1%;
+}
+
+.iron4-p {
+    top: 520%;
+    font-size: 25px;
+}
+.iron5 {
+    width: 100%;
+    height: 750px;
+    margin-top: 1%;
+}
+
+.iron5-p {
+    top: 660%;
+    font-size: 25px;
+}
+
+.ifcont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.iff {
+    margin: 3%;
+}
+
+.game-back-p-all-iron {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 35%;
+    background-color: rgba(255, 255, 237, 0.3);
+}
+
+.game-back-p-all-iron p {
+    color: white;
+}
+/* ----------------------------------PREG FREC---------------------------------------------- */
+.minuss {
+    display: none;
+}
+.acordeon-title:hover .fa-plus {
+    display: none;
+}
+.acordeon-title:hover .fa-minus {
+    display: inline-block;
+}
+.acordeon-content p:hover .fa-plus {
+    display: none;
+}
+.acordeon-content p:hover .minuss {
+    display: inline-block;
+}
+.acordeon-content  {
+    color: #555;
+    margin-left: 2%;
+}
+.acordeon-content p {
+    padding-bottom: 2%;
+}
+
+.acordeon {
+    margin-top: 3%;
+}
+
+.preg-p {
+    background-color: #777;
+}
+.preg-p h1 {
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.preg-p p {
+    color: white;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+/* ----------------------------------CONTACTO---------------------------------------------- */
+
+
+#optionsSelect {
+    border: 1px #BBB solid;
+    outline: 0px #BBB solid;
+  }
+
+.contacto-right {
+    float: right;
+    position: absolute;
+    top: 43%;
+    right: 0;
+    width: 30%;
+    margin-right: 4%;
+}
+
+.bordero {
+    width: 100%;
+    height: auto;
+    border: 1px #BBB solid;
+    border-radius: 15px;
+    margin-bottom: 6%;
+}
+
+
+.contacto-right .icon {
+    font-size: 55px;
+    margin-top: 10px;
+}
+
+.boton {
+    width: 40%;
+    height: 30px;
+    margin: auto;
+    margin-left: 7%;
+    border-radius: 15px;
+    outline: none;
+}
+
+.clam {
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.contact input {
+    border: 1px #BBB solid;
+    outline: none;
+}
+
+.contact input:hover {
+    outline: 1px #BBB solid;
+}
+
+.contacto-banner {
+    background-color: #777;
+}
+
+.contacto-banner p {
+    font-size: 20px;
+    margin-left: 3%;
+    color: white;
+}
+.contacto-banner h1 {
+    font-size: 25px;
+    margin-left: 3%;
+}
+
+.contacto-p h1, p {
+    margin-left: 3%;
+    color: #777;
+}
+
+.contacto-p h1 {
+    font-size: 25px;
+}
+
+.boton2 {
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    margin-left: 25%;
+    border-radius: 15px;
+}
+
+.redes-w:hover {
+    border: 2px #25D366 solid;
+    /* background-color: rgba(37,211,102,0.1); */
+}
+.redes-w:hover .fa-whatsapp {
+    color: #25D366;
+}
+
+.redes-f:hover {
+    border: 2px  #3b5998 solid;
+}
+.redes-f:hover .fa-facebook-f {
+    color: #3b5998;
+}
+.redes-i:hover {
+    border: 2px #e4405f  solid;
+    /* background-color: rgba(228,64,95,0.1); */
+}
+.redes-i:hover .fa-instagram {
+    color: #e4405f ;
+}
+
+.clam a {
+    text-decoration: none;
+    color: black;
+}
+.clam a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* -------------------------------- PS4 Y PS5 ------------------------------ */
+.filter-name {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 11%;
+    font-size: 30px;
+}
+.ps-text {
+    color: #555;
+    margin: 3% 5% 5% 5%;
+}
+.ps-text h1 {
+    color: #555;
+    margin: 3% 5% 5% 4%;
+}
+.ps-text p {
+    color: #555;
+    margin-left: 4%;
+    margin-right: 5%;
+}
+.ps-text .p1 {
+    margin-left: 4%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ps-text .p2 {
+    font-size: 17px;
+}
+/* --------------------------------------------MEDIAS QUERYS----------------------------------------------------- */
+@media only screen and (max-width: 620px) {
+    .redes-index-1-sm {
+        margin-left: -10%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .redes-index-1-sm {
+        margin-left: -6%;
+    }
+}
+@media only screen and (max-width: 346px) {
+    .redes-index-1-sm {
+        margin-left: -3%;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .redes-index-1 {
+        margin-left: -5%;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .redes-index-1 {
+        margin-left: 3%;
+    }
+
+    .iron2, .iron3, .iron4, .iron5 {
+        height: auto;
+    }
+
+}
+@media only screen and (max-width: 770px) {
+    .redes-index-1 {
+        margin-left: 8%;
+    }
+}
+
+@media only screen and (max-width: 975px) {
+    .cont-modal button {
+        margin-left: 45%;
+    }
+}
+@media only screen and (max-width: 795px) {
+    .cont-modal button {
+        margin-left: 44%;
+}
+}
+@media only screen and (max-width: 630px) {
+    .cont-modal button {
+        margin-left: 43%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .cont-modal button {
+        margin-left: 41%;
+    }
+}
+@media only screen and (max-width: 448px) {
+    .cont-modal button {
+        margin-left: 39%;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .cont-modal button {
+        margin-left: 38%;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .cont-modal button {
+        margin-left: 34%;
+    }
+}
+@media only screen and (max-width: 675px) {
+    .oli {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 411px) {
+    .img-covert {
+        width: 300px;
+    }
+
+    .youtube-video {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .youtube-video-iron {
+        width: auto;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+    .youtube-video-iron {
+        width: 350px;
+
+    }
+}
+@media only screen and (max-width: 418px) {
+    .youtube-video-iron {
+        width: 319px;
+
+    }
+
+}
+@media only screen and (max-width: 280px) {
+    .youtube-video-iron {
+        width: 268px;
+
+    }
+}
+@media only screen and (min-width: 412px)and (max-width: 590px) {
+    .youtube-video {
+        width: 400px;
+
+    }
+    .youtube-video-iron {
+        width: 400px;
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (max-width: 341px) {
+    .iron2 {
+        position: absolute;
+        top: 20px !important;
+    } 
+}
+
+@media only screen and (max-width: 916px) {
+    .iron2 {
+        
+    }
+}
+@media only screen and (max-width: 1085px) {
+    .iron2 {
+        margin-top: -10% !important;
+    }
+
+    .contacto-right {
+        float: none;
+        position: initial;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 6%;
+    }
+
+    .bordero {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .clam p {
+        margin-top: 8%;
+    }
+
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1085px) {
+    .boton {
+        margin-left: 12%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .boton {
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1085px) {
+    .contact {
+        margin-left: 10%;
+    }
+
+    .boton {
+        width: 50%;
+
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .game-video2 {
+        margin-left: 0%;
+    }
+
+}
+@media only screen and (max-width: 1200px) {
+    .game-banner  {
+        background-color: #1f1f1f;
+        position: relative;
+        width: 90%;
+        margin-top: 5%;
+    }
+
+    .game-description {
+        margin-top: 2%;
+    }
+    .game-back-p-all  {
+        position: relative;
+        width: 90%;
+        margin-top: 5%;
+    }
+    .game-back-p-all p {
+        color: white;
+    }
+
+    .game-back-img-all {
+        margin-top: 2%;
+    }
+
+    .game-back-p-all-iron  {
+        position: relative;
+        width: 90%;
+        margin-top: 5%;
+    }
+    .game-back-p-all-iron p {
+        color: #555;
+    }
+}

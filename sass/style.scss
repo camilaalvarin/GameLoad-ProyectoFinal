@@ -1,0 +1,106 @@
+  //   -------------------------------INDEX-------------------------------------
+
+// CARROUSEL
+.carrousel-position {
+    margin-top: 0%;
+  }
+  .galery {
+      .title {
+      margin-top: 10px;
+      margin-bottom: 2px;
+      font-size: 13px;
+      font-weight: bold;
+      }
+      .subt {
+          margin-top: 2px;
+          font-size: 12px;
+      }
+      img {
+              transition: 0.8s;
+  
+              &:hover { 
+              transform: scale(1.05);
+              transition: 0.5s all; 
+              box-shadow: 1px 1px 8px 5px rgba(0, 0, 0, 0.4);
+              cursor: pointer;
+              }
+          }
+      
+  }
+
+  
+    //   -----------------------PREGUNTAS FRECUENTES----------------------------
+  
+  
+  .acordeon {
+    
+    min-height: 100px;
+    background-color: white;
+  
+    .acordeon-container {
+      min-height: 50px;
+      // background-color: seagreen;
+      transition: all 3s;
+  
+      &:hover .acordeon-content {
+        height: 100px;
+        width: auto;
+      }
+      &:hover .acordeon-title p {
+        color: #eb4b39;
+      }
+  
+      .acordeon-title {
+      
+        height: 70px;
+        // background-color: #e74c3c;
+        overflow: hidden;
+        border-bottom: 1px solid white;
+
+    
+      p {
+        margin: 13px;
+        color: black;
+        font-weight: bold;
+        }
+      .icon {
+        font-size: 20px;
+      }
+      }
+        .acordeon-content {
+      
+          height: 0px;
+          background-color: white;
+          overflow: hidden;
+          transition: all 2s;
+        
+        
+        p {
+          padding-top: 10px;
+          padding-left: 10px;
+          padding-right: 10px;
+          text-align: center;
+          color: black;
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

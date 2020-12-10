@@ -1,0 +1,67 @@
+.carrousel-position {
+  margin-top: 0%;
+}
+
+.galery .title {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.galery .subt {
+  margin-top: 2px;
+  font-size: 12px;
+}
+.galery img {
+  transition: 0.8s;
+}
+.galery img:hover {
+  transform: scale(1.05);
+  transition: 0.5s all;
+  box-shadow: 1px 1px 8px 5px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.acordeon {
+  min-height: 100px;
+  background-color: white;
+}
+.acordeon .acordeon-container {
+  min-height: 50px;
+  transition: all 3s;
+}
+.acordeon .acordeon-container:hover .acordeon-content {
+  height: 100px;
+  width: auto;
+}
+.acordeon .acordeon-container:hover .acordeon-title p {
+  color: #eb4b39;
+}
+.acordeon .acordeon-container .acordeon-title {
+  height: 70px;
+  overflow: hidden;
+  border-bottom: 1px solid white;
+}
+.acordeon .acordeon-container .acordeon-title p {
+  margin: 13px;
+  color: black;
+  font-weight: bold;
+}
+.acordeon .acordeon-container .acordeon-title .icon {
+  font-size: 20px;
+}
+.acordeon .acordeon-container .acordeon-content {
+  height: 0px;
+  background-color: white;
+  overflow: hidden;
+  transition: all 2s;
+}
+.acordeon .acordeon-container .acordeon-content p {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
